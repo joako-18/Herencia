@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examen.controller.MenuEstudiante">
+   <children>
+      <Label layoutX="177.0" layoutY="42.0" text="Menu Alumnos">
+         <font>
+            <Font name="System Bold Italic" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_ver" layoutX="177.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#btn_ver" text="ver Examenes" />
+      <Button fx:id="btn_realizar" layoutX="320.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#btn_realizar" text="Realizar examen" />
+      <ListView fx:id="lista_examen" layoutX="57.0" layoutY="168.0" onMouseClicked="#lista_examen" prefHeight="200.0" prefWidth="485.0" />
+   </children>
+</AnchorPane>
